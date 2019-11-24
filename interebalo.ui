@@ -41,7 +41,7 @@
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>41</width>
+        <width>251</width>
         <height>31</height>
        </rect>
       </property>
@@ -49,20 +49,21 @@
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>10</y>
+        <x>270</x>
+        <y>0</y>
         <width>141</width>
-        <height>32</height>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
-       <string>Добавить элемент</string>
+       <string>Сформировать
+список</string>
       </property>
      </widget>
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>10</x>
         <y>50</y>
         <width>121</width>
         <height>16</height>
@@ -75,8 +76,8 @@
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>230</y>
+        <x>10</x>
+        <y>200</y>
         <width>131</width>
         <height>16</height>
        </rect>
@@ -89,35 +90,40 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>140</y>
-        <width>191</width>
-        <height>91</height>
+        <y>150</y>
+        <width>401</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="text">
        <string>Вычесть из каждого
-последующего элемента
-предыдущий</string>
+последующего элемента предыдущий</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser">
+     <widget class="QPlainTextEdit" name="plainTextEdit">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>70</y>
-        <width>191</width>
+        <width>401</width>
         <height>71</height>
        </rect>
       </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser_2">
+     <widget class="QPlainTextEdit" name="plainTextEdit_2">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>250</y>
-        <width>191</width>
+        <y>220</y>
+        <width>401</width>
         <height>71</height>
        </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
      </widget>
     </widget>
