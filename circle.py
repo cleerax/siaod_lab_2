@@ -3,6 +3,7 @@ class Node:
         self.value = value
         self.next = next
 
+
 class CircleList:
     def __init__(self):
         self.head = None
