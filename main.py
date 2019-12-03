@@ -148,30 +148,10 @@ class Ui_MainWindow(object):
         except Exception:
             self.label_4.setText("Ошибка: неправильно введен лист дерева")
 
-    '''def delMin(self, tree):
-        if not tree.left:
-            if not tree.right:
-                tree = None
-            else:
-                tree = tree.right
-        else:
-            self.delMin(tree.left)
-
-    def delMax(self, tree):
-        if not tree.right:
-            if not tree.left:
-                tree = None
-            else:
-                tree = tree.left
-        else:
-            self.delMax(tree.right)'''
-
     def btn4Clicked(self):
         try:
             if len(self.arr) == 0:
                 raise Exception("в дереве нет элементов")
-            #self.delMin(self.tree)
-            #self.delMax(self.tree)
             self.tree = self.tree.delMin()
             self.tree = self.tree.delMax()
             self.arr = []

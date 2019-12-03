@@ -18,14 +18,6 @@ class CircleList:
                 current = current.next
             current.next = Node(value, self.head)
 
-    '''def pop(self):
-        if self.head.next == self.head:
-            temp = self.head
-            self.head = None
-            return temp
-        else:
-            current = self.head'''
-
     def action(self):
         current = self.head
         temp = current.value

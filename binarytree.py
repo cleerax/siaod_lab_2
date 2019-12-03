@@ -75,4 +75,4 @@ if __name__ == "__main__":
     tree.insert(67)
     tree.insert(9)
     tree.insert(9)
-    #tree.PrintTree()
+    tree.printTree()
